@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:orientation="vertical"
+    android:layout_marginLeft="-10dp"
+    android:background="@mipmap/bgni">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/eventrr1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="\n\tClick the buttons to know more!\n"
+        android:textColor="@android:color/background_light"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:verticalScrollbarPosition="right">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/e1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="20dp"
+                android:background="@mipmap/sp"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/e2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="20dp"
+                android:background="@mipmap/mm"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/e3"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="20dp"
+                android:background="@mipmap/q"
+                android:textSize="20dp" />
+
+
+            <Button
+                android:id="@+id/e4"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="20dp"
+                android:background="@mipmap/jttc"
+                android:textSize="20dp" />
+            <Button
+                android:id="@+id/e5"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="20dp"
+                android:background="@mipmap/ic"/>
+
+            <Button
+                android:id="@+id/e6"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="20dp"
+                android:background="@mipmap/ps"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/e7"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="20dp"
+                android:background="@mipmap/it"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/e8"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="20dp"
+                android:background="@mipmap/cw"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/e9"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="20dp"
+                android:background="@mipmap/psy"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/e10"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="20dp"
+                android:background="@mipmap/blogger"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/e11"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="20dp"
+                android:background="@mipmap/ff"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/e12"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="20dp"
+                android:background="@mipmap/fe"
+                android:textSize="20dp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>
