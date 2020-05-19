@@ -1,8 +1,12 @@
 # Android-app---TAS
 A student companion android application to assist the participants of an event called The Amateur Scientist organized by PES University for the students of class 8 to class 12.
 
-The layout folder contains the fron end design of the app i.e., contains xml files of all the activities.
+Repository contents:
 
-The the_amateur_scientist folder contains the backend coding of the application i.e., contains java files of all the activities.
+1. layout: Contains the xml code for the User Interface of the android application.
 
-app-release.apk is the installable apk of the android application.
+2. the_amateur_scientist: This directory contains the java codes for the backend of the android application.
+
+3. AndroidManifest.xml: Core file of the android application containing important data for the app development.
+
+4. app-release.apk: The installable apk file that is to be installed in the android device.
